@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Map Race</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+  <div id="map" class="mapboxgl-map">
+    <div class="mapboxgl-canary" style="visibility: hidden;"></div>
+    <div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate">
+      <canvas class="mapboxgl-canvas" style="position: absolute; width: 799px; height: 803px;" tabindex="0"
+              aria-label="Map" width="1598" height="1606"></canvas>
+    </div>
+  </div>
+  <div id="instructions"><br>
+    <span class="duration"></span><br>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

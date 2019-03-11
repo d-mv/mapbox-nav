@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Step-by-step navigation element, used in Chaserz project. Work in progress.
+Step-by-step navigation element, used in [Chaserz project](https://github.com/d-mv/chaserz). Work in progress.
 
 ## How it works?
 
